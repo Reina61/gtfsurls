@@ -103,7 +103,7 @@ app.all('/player/growid/validate/checktoken', (req, res) => {
     }
 });
 app.get('/', function (req, res) {
-   res.send('GTFS VIRA CANS');
+   res.send('Join Gtfs?here https://reina61.github.io/GtfsWebsite/ ');
 });
 
 app.listen(5000, function () {
