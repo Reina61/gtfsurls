@@ -32,7 +32,7 @@ app.all('/favicon.ico', function(req, res) {
     
 });
 app.all('/player/register', function(req, res) {
-    res.send("Coming soon...");
+    res.send("Tunggu Vira Update ya..");
 });
 app.all('/player/login/dashboard', function (req, res) {
     const tData = {};
@@ -103,7 +103,7 @@ app.all('/player/growid/validate/checktoken', (req, res) => {
     }
 });
 app.get('/', function (req, res) {
-   res.send('Growsaga Log-Url by asep');
+   res.send('GTFS VIRA CANS');
 });
 
 app.listen(5000, function () {
